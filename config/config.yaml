@@ -1,0 +1,15 @@
+#服务端配置
+server:
+  listen_addr: "0.0.0.0"
+  port: 8080
+
+#数据库连接信息
+db:
+  driver: "mysql"
+  user: "root"
+  passwd: "root"
+  host: "127.0.0.1"
+  port: 3306
+  db_name: "cloud"
+  charset: "utf8"
+
